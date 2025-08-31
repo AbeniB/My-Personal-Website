@@ -19,7 +19,7 @@ window.addEventListener('scroll', function() {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
         
-        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+        if (pageYOffset >= (sectionTop - sectionHeight / 4)) {
             current = section.getAttribute('id');
         }
     });
@@ -39,7 +39,7 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('animate');
         }
     });
-}, { threshold: 0.1 });
+}, { threshold: 0.15 });
 
 document.querySelectorAll('.animate').forEach(el => {
     observer.observe(el);

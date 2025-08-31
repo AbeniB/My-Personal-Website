@@ -40,6 +40,10 @@ body {
     transform: rotate(15deg);
 }
 
+.navbar-brand:hover {
+    color: var(--accent);
+}
+
 .nav-link {
     font-weight: 500;
     color: var(--dark);
@@ -81,7 +85,7 @@ body {
     background: linear-gradient(rgba(26, 58, 95, 0.85), rgba(26, 58, 95, 0.9)), 
                 url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
     color: white;
-    padding: 6rem 0;
+    padding: 8rem 0;
     position: relative;
 }
 
@@ -103,8 +107,8 @@ body {
 }
 
 .hero-img {
-    width: 250px;
-    height: 300px;
+    width: 16rem;
+    height: 20rem;
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -124,7 +128,7 @@ body {
 
 /* Resume Section */
 .resume-section {
-    padding: 5rem 0;
+    padding: 10rem 0;
     background: white;
 }
 
@@ -156,7 +160,7 @@ body {
 
 /* Projects Section */
 .projects-section {
-    padding: 5rem 0;
+    padding: 7rem 0;
     background: linear-gradient(135deg, #f0e6dc, #e2d5c8);
     position: relative;
     overflow: hidden;
@@ -313,7 +317,7 @@ body {
 
 /* About/Contact Section */
 .about-section {
-    padding: 5rem 0;
+    padding: 8rem 0;
     background: linear-gradient(135deg, #1a3a5f, #2c5282);
     color: white;
 }
@@ -365,7 +369,7 @@ body {
 .footer {
     background: #112947;
     color: white;
-    padding: 3rem 0;
+    padding: 6rem 0;
 }
 
 .footer a {
