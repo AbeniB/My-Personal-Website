@@ -451,6 +451,42 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+/* Add to styles.css */
+.project-modal .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-modal .carousel-item {
+    height: 400px;
+    background-color: #f8f9fa;
+}
+
+.project-modal .carousel-item img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.project-details h4 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.project-details h5 {
+    color: var(--secondary);
+    margin: 1.5rem 0 1rem;
+}
+
+.project-details ul {
+    padding-left: 1.5rem;
+}
+
+.project-details li {
+    margin-bottom: 0.5rem;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -458,7 +494,7 @@ body {
 }
 
 .animate {
-    animation: fadeIn 0.8s ease forwards;
+    animation: fadeIn 1.4s ease forwards;
 }
 
 .delay-1 { animation-delay: 0.1s; }
